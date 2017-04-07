@@ -581,8 +581,8 @@ static void kml2styletable(
     /***** No reason to add it if it don't have an id. *****/
     if( !poKmlStyle->has_id() )
     {
-        CPLError( CE_Failure, CPLE_AppDefined,
-                  "ERROR parsing kml Style: No id" );
+        //CPLError( CE_Failure, CPLE_AppDefined,
+        //          "ERROR parsing kml Style: No id" );
         return;
     }
 
